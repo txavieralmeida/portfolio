@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const { version } = require("./package.json");
+
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
   env: {
@@ -8,7 +11,6 @@ const nextConfig: NextConfig = {
   },
   serverExternalPackages: ["@react-pdf/renderer", "puppeteer"],
   images: {
-    // Allow local images from public folder (default)
     localPatterns: [
       {
         pathname: "/images/**",
@@ -17,4 +19,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

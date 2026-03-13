@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "title": "Tiago Almeida — Mjukvaruutvecklare",
+    "description": "Portfolio och interaktivt CV för Tiago Almeida, Mjukvaruutvecklare på Devoteam Cybertrust. Specialiserad på säkerhetsverktyg, automatisering och modern webbutveckling."
+  },
+  "navbar": {
+    "scrollToTop": "Tillbaka till toppen",
+    "openMenu": "Öppna menyn",
+    "navigation": "Navigering",
+    "about": "Om mig",
+    "experience": "Erfarenhet",
+    "projects": "Projekt",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hej, jag är",
+    "viewWork": "Se mitt arbete",
+    "downloadCV": "Ladda ner CV",
+    "scrollDown": "Scrolla ner"
+  },
+  "about": {
+    "eyebrow": "Lär känna mig",
+    "heading": "Vem är jag",
+    "profileAlt": "profilfoto",
+    "interestsHeading": "Intressen & Hobbyer"
+  },
+  "timeline": {
+    "eyebrow": "Min resa",
+    "heading": "Erfarenhet & Utbildning",
+    "experience": "Erfarenhet",
+    "education": "Utbildning",
+    "present": "Nutid",
+    "now": "Nu",
+    "readMore": "Läs mer",
+    "inWord": "i"
+  },
+  "projects": {
+    "eyebrow": "Vad jag har byggt",
+    "heading": "Projekt",
+    "liveDemo": "Live Demo",
+    "source": "Källkod",
+    "screenshotAlt": "skärmdump"
+  },
+  "footer": {
+    "eyebrow": "Ta kontakt",
+    "heading": "Kontakt",
+    "copyright": "Byggt med Next.js & shadcn/ui."
+  },
+  "theme": {
+    "toggle": "Byt tema"
+  },
+  "language": {
+    "label": "Språk",
+    "en": "English",
+    "pt": "Português",
+    "fr": "Français",
+    "it": "Italiano",
+    "sv": "Svenska"
+  },
+  "pdf": {
+    "printToPdf": "Skriv ut",
+    "backToWebsite": "Tillbaka till webbplatsen",
+    "present": "Nutid",
+    "inWord": "i",
+    "experience": "Erfarenhet",
+    "education": "Utbildning",
+    "skills": "Kompetenser",
+    "projects": "Projekt",
+    "interests": "Intressen",
+    "generatedAutomatically": "Genererades automatiskt",
+    "visitFull": "besök för att se det fullständiga interaktiva CV"
+  }
+}

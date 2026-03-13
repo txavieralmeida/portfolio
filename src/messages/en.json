@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "title": "Tiago Almeida — Software Developer",
+    "description": "Portfolio and interactive CV of Tiago Almeida, Software Developer at Devoteam Cybertrust. Specialising in security tooling, automation, and modern web development."
+  },
+  "navbar": {
+    "scrollToTop": "Scroll to top",
+    "openMenu": "Open menu",
+    "navigation": "Navigation",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "viewWork": "View My Work",
+    "downloadCV": "Download CV",
+    "scrollDown": "Scroll down"
+  },
+  "about": {
+    "eyebrow": "Get to know me",
+    "heading": "Who Am I",
+    "profileAlt": "profile photo",
+    "interestsHeading": "Interests & Hobbies"
+  },
+  "timeline": {
+    "eyebrow": "My Journey",
+    "heading": "Experience & Education",
+    "experience": "Experience",
+    "education": "Education",
+    "present": "Present",
+    "now": "Now",
+    "readMore": "Read more",
+    "inWord": "in"
+  },
+  "projects": {
+    "eyebrow": "What I've built",
+    "heading": "Projects",
+    "liveDemo": "Live Demo",
+    "source": "Source",
+    "screenshotAlt": "screenshot"
+  },
+  "footer": {
+    "eyebrow": "Get in touch",
+    "heading": "Contact",
+    "copyright": "Built with Next.js & shadcn/ui."
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "pt": "Português",
+    "fr": "Français",
+    "it": "Italiano",
+    "sv": "Svenska"
+  },
+  "pdf": {
+    "printToPdf": "Print",
+    "backToWebsite": "Back to website",
+    "present": "Present",
+    "inWord": "in",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "interests": "Interests",
+    "generatedAutomatically": "Generated automatically",
+    "visitFull": "visit to see the full interactive CV"
+  }
+}

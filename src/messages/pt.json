@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "title": "Tiago Almeida — Desenvolvedor de Software",
+    "description": "Portfólio e CV interativo de Tiago Almeida, Desenvolvedor de Software na Devoteam Cybertrust. Especializado em ferramentas de segurança, automação e desenvolvimento web moderno."
+  },
+  "navbar": {
+    "scrollToTop": "Voltar ao topo",
+    "openMenu": "Abrir menu",
+    "navigation": "Navegação",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Olá, sou",
+    "viewWork": "Ver o meu trabalho",
+    "downloadCV": "Descarregar CV",
+    "scrollDown": "Scroll para baixo"
+  },
+  "about": {
+    "eyebrow": "Fica a conhecer-me",
+    "heading": "Quem sou eu",
+    "profileAlt": "foto de perfil",
+    "interestsHeading": "Interesses & Hobbies"
+  },
+  "timeline": {
+    "eyebrow": "A minha jornada",
+    "heading": "Experiência & Educação",
+    "experience": "Experiência",
+    "education": "Educação",
+    "present": "Presente",
+    "now": "Agora",
+    "readMore": "Ler mais",
+    "inWord": "em"
+  },
+  "projects": {
+    "eyebrow": "O que construí",
+    "heading": "Projetos",
+    "liveDemo": "Demo ao Vivo",
+    "source": "Código",
+    "screenshotAlt": "captura de ecrã"
+  },
+  "footer": {
+    "eyebrow": "Entra em contacto",
+    "heading": "Contacto",
+    "copyright": "Desenvolvido com Next.js & shadcn/ui."
+  },
+  "theme": {
+    "toggle": "Alternar tema"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "English",
+    "pt": "Português",
+    "fr": "Français",
+    "it": "Italiano",
+    "sv": "Svenska"
+  },
+  "pdf": {
+    "printToPdf": "Imprimir",
+    "backToWebsite": "Voltar ao site",
+    "present": "Presente",
+    "inWord": "em",
+    "experience": "Experiência",
+    "education": "Educação",
+    "skills": "Competências",
+    "projects": "Projetos",
+    "interests": "Interesses",
+    "generatedAutomatically": "Gerado automaticamente",
+    "visitFull": "visite para ver o CV interativo completo"
+  }
+}

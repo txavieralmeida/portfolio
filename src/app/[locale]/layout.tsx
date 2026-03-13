@@ -24,6 +24,8 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://tiago-almeida.dev";
+
 export async function generateMetadata({
   params,
 }: {
@@ -31,19 +33,34 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
+  const canonical = locale === routing.defaultLocale ? baseUrl : `${baseUrl}/${locale}`;
 
   return {
+    metadataBase: new URL(baseUrl),
     title: t("title"),
     description: t("description"),
+    keywords: ["Tiago Almeida", "software developer", "portfolio", "CV", "cybersecurity", "Devoteam", "web development", "automation"],
+    authors: [{ name: "Tiago Almeida" }],
+    robots: { index: true, follow: true },
     openGraph: {
       title: t("title"),
       description: t("description"),
       type: "website",
+      url: canonical,
+      siteName: "Tiago Almeida",
       locale: locale.replace("-", "_"),
+      images: [{ url: "/images/profile.png", width: 400, height: 452, alt: "Tiago Almeida" }],
+    },
+    twitter: {
+      card: "summary",
+      title: t("title"),
+      description: t("description"),
+      images: ["/images/profile.png"],
     },
     alternates: {
+      canonical,
       languages: Object.fromEntries(
-        routing.locales.map((l) => [l, l === routing.defaultLocale ? "/" : `/${l}`])
+        routing.locales.map((l) => [l, l === routing.defaultLocale ? baseUrl : `${baseUrl}/${l}`])
       ),
     },
   };
